@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delivery</title>
+
+        <link href="../css/style.css" rel="stylesheet"/>
+        <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico">
+        <script src="../js/location.js"></script>
+    </head>
+
+    <body style="background-color: #121212;">
+        <div id="container" style="background-color: #181818; width: 50%; height: 50%; position: absolute; left: 25%; top: 25%; border-radius: 10px;"> 
+            <img src="../../assets/img/P-logo.png" style="position: absolute; top: 0px; left: 0px; height: 120px; width: 180px;" />
+            <div id="input">
+                <input id="i" placeholder="Phone Number" style="background-color: #181818; border-radius: 10px; color: ghostwhite; position: absolute; left: 25%; top: 40%; width: 49%; text-align: center;">
+            </div>
+            <div id="button">
+                <button id="b" onclick="getLocation()">Lets go!</button>
+            </div>
+            <h2 id="coords"></h2>
+        </div>
+    </body>
+</html>

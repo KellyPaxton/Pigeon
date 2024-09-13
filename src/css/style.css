@@ -1,0 +1,106 @@
+  @font-face {
+    font-family: Avenir-Black;
+    src: url('../../assets/fonts/Avenir\ Black.ttf') format('opentype');
+  }
+ 
+  html{
+    scroll-behavior: smooth;
+  }
+
+  body {
+      font-family: Avenir-Black;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+  }
+
+  #i {
+    font-family: Avenir-Black;
+    border: solid 1.5px ghostwhite;
+    height: 10%;
+    font-size: 14px;
+  }
+
+#b {
+  background-color: ghostwhite;
+  color: #181818;
+  font-family: Avenir-Black;
+  border-radius: 10px;
+  border: solid 2px ghostwhite;
+  position: absolute;
+  left: 25%; 
+  top: 55%;
+  width: 50%;
+  height: 10%;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#b:hover {
+  background-color: #00d062;
+  border: #00d062;
+}
+
+a:hover {
+  color: #00d062 !important;
+}
+
+#nav {
+  background-color: #181818;
+  position: absolute;
+  height: 100%;
+  width: 33%;
+  left: 67%;
+  display: none;
+  padding: 5%;
+}
+
+.pages {
+  position: relative;
+}
+
+input::placeholder {
+  opacity: 0.8;
+  color: ghostwhite;
+}
+
+input:focus {
+  outline: none;
+}
+
+#PH {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+#coords {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+}
+
+#greenp {
+  width: 20%; 
+  height: 40%; 
+  position: relative;
+  top: 30%;
+  left: 40%; 
+  box-shadow: 0px 0px 7.5px 2px #00d062, inset 0px 0px 7.5px 2px #00d062;
+  border-radius: 50%;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 10px #00d062, 0 0 20px #00d062, 0 0 30px #00d062, 0 0 40px #00d062, 0 0 50px #00d062, 0 0 60px #00d062, 
+    inset 0 0 10px #00d062, 0 0 20px #00d062, 0 0 30px #00d062, 0 0 40px #00d062, 0 0 50px #00d062, 0 0 60px #00d062;
+  }
+  
+  to {
+    box-shadow: 0 0 20px #00d062, 0 0 30px #00d062, 0 0 40px #00d062, 0 0 50px #00d062, 0 0 60px #00d062, 0 0 70px #00d062,
+    inset 0 0 20px #00d062, 0 0 30px #00d062, 0 0 40px #00d062, 0 0 50px #00d062, 0 0 60px #00d062, 0 0 70px #00d062;
+  }
+}
