@@ -55,6 +55,8 @@ a:hover {
   left: 67%;
   display: none;
   padding: 5%;
+  z-index: 2;
+  top: 0%;
 }
 
 .pages {
