@@ -8,12 +8,12 @@
   }
 
   body {
-      font-family: Avenir-Black;
-      background-color: #121212;
-      color: #fff;
-      margin: 0;
-      height: 100%;
-      overflow: hidden;
+    font-family: Avenir-Black;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
   }
 
   #i {
@@ -70,12 +70,6 @@ input::placeholder {
 
 input:focus {
   outline: none;
-}
-
-#PH {
-  position: absolute;
-  top: 30%;
-  left: 5%;
 }
 
 #coords {
