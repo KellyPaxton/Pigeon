@@ -1,27 +1,27 @@
-  @font-face {
-    font-family: Avenir-Black;
-    src: url('../../assets/fonts/Avenir\ Black.ttf') format('opentype');
-  }
+@font-face {
+  font-family: Avenir-Black;
+  src: url('../../assets/fonts/Avenir\ Black.ttf') format('opentype');
+}
  
-  html{
-    scroll-behavior: smooth;
-  }
+html{
+  scroll-behavior: smooth;
+}
 
-  body {
-    font-family: Avenir-Black;
-    background-color: #121212;
-    color: #fff;
-    margin: 0;
-    height: 100%;
-    overflow: hidden;
-  }
+body {
+  font-family: Avenir-Black;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
 
-  #i {
-    font-family: Avenir-Black;
-    border: solid 1.5px ghostwhite;
-    height: 10%;
-    font-size: 14px;
-  }
+#i {
+  font-family: Avenir-Black;
+  border: solid 1.5px ghostwhite;
+  height: 10%;
+  font-size: 14px;
+}
 
 #b {
   background-color: ghostwhite;
@@ -44,23 +44,7 @@
 }
 
 a:hover {
-  color: #00d062 !important;
-}
-
-#nav {
-  background-color: #181818;
-  position: absolute;
-  height: 100%;
-  width: 33%;
-  left: 67%;
-  display: none;
-  padding: 5%;
-  z-index: 2;
-  top: 0%;
-}
-
-.pages {
-  position: relative;
+  opacity: 80%;
 }
 
 input::placeholder {
