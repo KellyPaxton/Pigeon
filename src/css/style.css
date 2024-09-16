@@ -39,8 +39,7 @@ body {
 }
 
 #b:hover {
-  background-color: #00d062;
-  border: #00d062;
+  opacity: 80%;
 }
 
 a:hover {
