@@ -83,3 +83,15 @@ input:focus {
     inset 0 0 20px #00d062, 0 0 30px #00d062, 0 0 40px #00d062, 0 0 50px #00d062, 0 0 60px #00d062, 0 0 70px #00d062;
   }
 }
+
+#square {
+  position: absolute;
+  height: 70%;
+  width: 30%;
+  left: 35%;
+  top: 15%;
+  border-radius: 10px;
+  background-color: #fff;
+  z-index: 2;
+  opacity: 15%;
+}
