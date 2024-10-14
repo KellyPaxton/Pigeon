@@ -21,6 +21,14 @@ body {
   border: solid 1.5px ghostwhite;
   height: 10%;
   font-size: 14px;
+  background-color: #181818;
+  border-radius: 10px;
+  color: ghostwhite;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  width: 49%;
+  text-align: center;
 }
 
 #b {
@@ -147,4 +155,133 @@ input:focus {
 #purpose-button:hover {
   background-color: white;
   color: 121212;
+}
+
+#container {
+  background-color: #181818;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  border-radius: 10px;
+}
+
+#igeon {
+  position: absolute;
+  top: 5.5%;
+  left: 16.5%;
+  z-index: 2;
+  font-size: 24px;
+}
+
+#logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 120px;
+  width: 180px;
+}
+
+#v-logo {
+  width: 10%;
+  height: 22.5%;
+  position: relative;
+  top: 40%;
+  left: 35%;
+}
+
+#v-igeon {
+  width: 10%;
+  height: 22.5%;
+  position: relative;
+  top: 11.5%;
+  left: 45%;
+  font-size: 76px;
+}
+
+#purpose-logo {
+  width: 3.5%;
+  height: 6%;
+  position: absolute;
+  top: 24%;
+  left: 37%;
+  z-index: 2;
+}
+
+#purpose-igeon {
+  position: absolute;
+  font-size: 24px;
+  top: 21.25%;
+  left: 40.5%;
+  z-index: 2;
+}
+
+#index-container {
+  background-color: ghostwhite;
+}
+
+#index-logo {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  cursor: pointer;
+  height: 90px;
+  width: 135px;
+}
+
+#index-igeon {
+  position: absolute;
+  top: 1%;
+  left: 6.2%;
+  z-index: 2;
+  font-size: 20px;
+}
+
+#moto {
+  position: absolute;
+  left: 55%;
+  top: 82%;
+  font-size: 42px;
+  z-index: 2;
+}
+
+#a-drone {
+  position: absolute;
+  top: 4%;
+  left: 60%;
+  z-index: 2;
+  font-size: 16px;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#a-vision {
+  position: absolute;
+  top: 4%;
+  left: 68%;
+  z-index: 2;
+  font-size: 16px;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#a-purpose {
+  position: absolute;
+  top: 4%;
+  left: 78%;
+  z-index: 2;
+  font-size: 16px;
+  text-decoration: none;
+  color: ghostwhite;
+}
+
+#a-contact {
+  position: absolute;
+  top: 4%;
+  left: 87%;
+  z-index: 2;
+  font-size: 16px;
+  text-decoration: none;
+  color: ghostwhite;
 }
